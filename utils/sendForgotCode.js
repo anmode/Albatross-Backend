@@ -10,10 +10,10 @@ module.exports = (email, userType) => {
   const code = getRandCode();
 
   const data = {
-    from: "Hospitality@hospitality-helpdesk.com",
+    from: "Albatross@Albatross-helpdesk.com",
     to: email,
     subject: "Forgot Password",
-    html: `<h1>Hospitality</h1><br><h3>Welcome to Hospitality Service! Get Right Info! Right Time!</h3><br><p>You need to enter the code below in order to reset your password:</p><br> <b>${code}</b><br><p>Thank You! Have a nice day! :)</p>`,
+    html: `<h1>Albatross</h1><br><h3>Welcome to Albatross Service! Get Right Info! Right Time!</h3><br><p>You need to enter the code below in order to reset your password:</p><br> <b>${code}</b><br><p>Thank You! Have a nice day! :)</p>`,
   };
 
   sgMail.send(data);

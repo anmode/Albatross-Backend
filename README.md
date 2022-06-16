@@ -1,10 +1,10 @@
-# Hospitality
+# Albatross
 <img src="https://user-images.githubusercontent.com/38679082/79780084-03f5f480-8359-11ea-8083-399d62bf484e.png" alt="Login Activity" width="250"/>
 
-A Node.js-based backend for [Hospitality-MobileClient](https://github.com/anmode/Hospitality-MobileClient) which can be used to find out the nearest hospitals to you in a specific given input range and can be used to check the statistics and the availabilities of the hospitals. Moreover, users can also book appointments with respective hospitals.
+A Node.js-based backend for [Albatross-MobileClient](https://github.com/anmode/Albatross-MobileClient) which can be used to find out the nearest hospitals to you in a specific given input range and can be used to check the statistics and the availabilities of the hospitals. Moreover, users can also book appointments with respective hospitals.
 
 
-### [Hospitality-MobileClient](https://github.com/anmode/Hospitality-MobileClient)
+### [Albatross-MobileClient](https://github.com/anmode/Albatross-MobileClient)
 
 
 ## How it works?

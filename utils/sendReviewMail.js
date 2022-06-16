@@ -10,10 +10,10 @@ module.exports = (userEmail, userName) => {
   email = ['sbhanupratap161@gmail.com', 'saarthakgupta08@gmail.com', 'rishabhsharma.rs0403@gmail.com'];
 
   const data = {
-    from: "Hospitality@hospitality-helpdesk.com",
+    from: "Albatross@Albatross-helpdesk.com",
     to: email,
     subject: "Account Verification",
-    html: `<h1>Hospitality</h1><br><h3>Welcome to Hospitality Service! Get Right Info! Right Time!</h3><br><p>Hospital "${userName}" wants to verify their account with email ${userEmail}.</p><br><p>Thank You! Have a nice day! :)</p>`,
+    html: `<h1>Albatross</h1><br><h3>Welcome to Albatross Service! Get Right Info! Right Time!</h3><br><p>Hospital "${userName}" wants to verify their account with email ${userEmail}.</p><br><p>Thank You! Have a nice day! :)</p>`,
   };
 
   sgMail.send(data);
